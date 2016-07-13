@@ -24,6 +24,7 @@
     "eslint-plugin-jsx-a11y": "^1.0.4",
     "eslint-plugin-react": "^5.2.2",
     "extract-text-webpack-plugin": "^1.0.1",
+    "mocha": "^2.5.3",
     "node-sass": "^3.7.0",
     "sass-loader": "^3.2.0",
     "webpack": "^1.13.0",
