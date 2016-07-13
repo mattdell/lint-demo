@@ -69,9 +69,6 @@ rules:
   vars-on-top: 2
   indent: [1, 'tab', { "SwitchCase": 1 }]
 
-  # Aztec rules
-  # aztec/bootstrap-import: 2
-
   # Extra rules
   extra-rules/no-commented-out-code: 2
 
