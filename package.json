@@ -33,7 +33,8 @@
   "scripts": {
     "start": "webpack-dev-server --content-base dist/ --hot --inline --colors",
     "build": "rm -rf dist && NODE_ENV=production node node_modules/.bin/webpack && cp app/index.html dist/index.html",
-    "test": "npm test"
+    "test": "npm test",
+	"lint": "eslint app"
   },
   "author": "mdell",
   "license": "ISC"
