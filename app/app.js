@@ -12,5 +12,5 @@ Hello.propTypes = {
 };
 
 ReactDOM.render(<Hello name='London'/>,
-	document.getElementById('greeting')
+	document.getElementById('app')
 );

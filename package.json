@@ -4,8 +4,9 @@
   "description": "",
   "main": "app.js",
   "dependencies": {
-    "react": "^15.0.2",
-    "react-dom": "^15.0.2"
+    "react": "^0.14.8",
+    "react-bootstrap": "^0.29.5",
+    "react-dom": "^0.14.8"
   },
   "devDependencies": {
     "babel-cli": "^6.8.0",
