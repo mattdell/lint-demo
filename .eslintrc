@@ -2,7 +2,7 @@ parser: 'babel-eslint'
 
 extends: [ 'plugin:import/errors' ]
 
-plugins: [ 'react', 'extra-rules' ]
+plugins: [ 'react', 'extra-rules', 'lint-demo' ]
 
 ecmaFeatures:
   jsx: true
@@ -68,6 +68,9 @@ rules:
   strict: 0
   vars-on-top: 2
   indent: [1, 'tab', { "SwitchCase": 1 }]
+
+  # Lint demo
+  lint-demo/react-bootstrap-import: 2
 
   # Extra rules
   extra-rules/no-commented-out-code: 2
