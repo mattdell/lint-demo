@@ -11,6 +11,6 @@ Hello.propTypes = {
 	name: PropTypes.string
 };
 
-ReactDOM.render(<Hello name='London'/>,
+ReactDOM.render(<Hello name='Buckley'/>,
 	document.getElementById('app')
 );

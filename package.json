@@ -31,7 +31,7 @@
     "webpack-dev-server": "^1.14.1"
   },
   "scripts": {
-    "start": "webpack-dev-server --content-base dist/ --hot --inline --colors",
+    "start": "npm run build && webpack-dev-server --content-base dist/ --hot --inline --colors",
     "build": "rm -rf dist && NODE_ENV=production node node_modules/.bin/webpack && cp app/index.html dist/index.html",
     "test": "npm test",
 	"lint": "eslint app"
